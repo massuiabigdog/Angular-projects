@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import {MatButtonModule, MatCheckboxModule} from '@angular/material';
+
 import { NgModule } from '@angular/core';
 import { hammerjs} from 'hammerjs';
 @Component({
@@ -9,7 +9,7 @@ import { hammerjs} from 'hammerjs';
   styleUrls: ['./app.component.css']
 })
 @NgModule({
-  imports: [MatButtonModule, MatCheckboxModule],
+  imports: [],
 })
 
 export class AppComponent {
