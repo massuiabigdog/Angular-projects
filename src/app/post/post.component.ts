@@ -8,8 +8,8 @@ import { PostService } from '../post.service';
     providers: [PostService]
 })
 export class PostComponent implements OnInit {
-
-    hasLink = false;
+    usedtech: Array<any> = [];
+    hasLink = true;
     comments: Array<any> = [];
     posts:any;
 

@@ -9,7 +9,7 @@ import { HomeComponent } from './home/home.component';
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
   {
-    path: 'post/:name', component: PostComponent
+    path: 'post/:title', component: PostComponent
   },
   {
     path: 'home', component: HomeComponent

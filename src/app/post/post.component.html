@@ -9,8 +9,8 @@
           <img class="mb-10" src="{{ posts.acf.clientlogo.sizes.large }}">
           <h1>{{ posts.acf.titletitle }}</h1>
           <p>{{ posts.acf.shortdescription }}</p>
-          <p *ngIf="!hasLink; else noLink"><a class="ghost" href="{{ posts.acf.linktoproject }}" target="_blank">See Live</a></p>
-          <ng-template #noLink></ng-template> 
+          <p *ngIf="!hasLink; else noLink"></p>
+          <ng-template #noLink><a class="ghost" href="{{ posts.acf.linktoproject }}" target="_blank">See Live</a></ng-template> 
       </div>
       
     </div>
@@ -56,12 +56,7 @@
             <div class="modal-body">
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
-                              <div class="carousel-item active">
-                                <img class="d-block w-100" src="{{ posts?.acf.photo1.sizes.thumbnail }} " alt="First slide">
-                              </div>
-                              <div class="carousel-item">
-                                <img class="d-block w-100" src="{{ posts.acf.photo2.sizes.thumbnail }}" alt="Second slide">
-                              </div>
+                            
                               <div class="carousel-item">
                                 <img class="d-block w-100" src="http://placehold.it/1200x600/fcf00c/000&text=Three" alt="Third slide">
                               </div>
@@ -82,3 +77,4 @@
       </div>
 
      <a [routerLink]="[home]" >Home</a>
+
