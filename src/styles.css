@@ -252,24 +252,26 @@ a:hover#logo, a:active#logo {background: none;}
 #projects {font-size: 0;}
 
 .tile {
-	display: inline-block;
-	width: 23%;
-	/* height: 35px; */
-	margin: 0 1% 20px;
-	padding: 20px 0 10px;
-	font-size: 13px;
-	text-align: center;
-	line-height: 15px;
-	vertical-align: top;
-	overflow: hidden;
-	color: rgba(255,255,255,1);
-	background-color: #eee;
-	background-repeat: no-repeat;
-	background-position: center 10px;
-	border-radius: 2px;
-	opacity: 1;
-	transition: opacity ease-out .4s;
-	background-size: 108px 72px; background-position: center -4px;
+    display: inline-block;
+
+    min-width: 200px;
+
+    margin: 0 10px;
+    padding: 20px 0 10px;
+    font-size: 13px;
+    text-align: center;
+    line-height: 15px;
+    vertical-align: top;
+    overflow: hidden;
+    color: rgba(255,255,255,1);
+    background-color: #eee;
+
+    border-radius: 2px;
+    opacity: 1;
+    -webkit-transition: opacity ease-out .4s;
+    transition: opacity ease-out .4s;
+    background-size: 108px 72px;
+    background-position: center -4px;
 }
 a:hover.tile {color: rgba(255,255,255,.75); opacity: .5;}
 

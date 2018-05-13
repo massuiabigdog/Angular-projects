@@ -11,10 +11,11 @@
                   </ul>
                 </div>
                 </section>
-                <section>
             
-  <nav class="grid">
-      <div *ngFor="let post of posts">´
+  <section class="col-md-12">
+            
+  <div class="flex">
+      <div *ngFor="let post of posts" class="">
 
         <a [routerLink]="['/post', post.id]" class="tile {{ post.acf.tilecolor }}">
             <img src="{{ post.acf.clientlogo.sizes.large }}">
@@ -23,6 +24,6 @@
 
     </div>
 
- </nav>
+  </div>
 </section>
 
