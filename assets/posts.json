@@ -1,0 +1,620 @@
+[ {
+    "id":231,
+    "date":"2018-07-04T20:09:01",
+    "date_gmt":"2018-07-04T20:09:01",
+    "guid": {
+        "rendered": "http:\/\/tmassuia.16mb.com\/api\/?p=231"
+    }
+    ,
+    "modified":"2018-09-20T14:17:30",
+    "modified_gmt":"2018-09-20T14:17:30",
+    "slug":"check-in",
+    "status":"publish",
+    "type":"post",
+    "link":"http:\/\/massuia.co.nf\/check-in\/",
+    "title": {
+        "rendered": "Check-in"
+    }
+    ,
+    "content": {
+        "rendered": "", "protected": false
+    }
+    ,
+    "excerpt": {
+        "rendered": "", "protected": false
+    }
+    ,
+    "author":1,
+    "featured_media":0,
+    "comment_status":"open",
+    "ping_status":"open",
+    "sticky":false,
+    "template":"",
+    "format":"standard",
+    "meta":[],
+    "categories":[1],
+    "tags":[],
+    "acf": {
+        "companylogo": {
+            "ID":247,
+            "id":247,
+            "title":"cropped-logo_nova",
+            "filename":"cropped-logo_nova.png",
+            "filesize":3679,
+            "url":"http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/cropped-logo_nova.png",
+            "link":"http:\/\/massuia.co.nf\/check-in\/cropped-logo_nova\/",
+            "alt":"",
+            "author":"1",
+            "description":"",
+            "caption":"",
+            "name":"cropped-logo_nova",
+            "status":"inherit",
+            "uploaded_to":231,
+            "date":"2018-07-04 22:52:24",
+            "modified":"2018-07-04 22:52:24",
+            "menu_order":0,
+            "mime_type":"image\/png",
+            "type":"image",
+            "subtype":"png",
+            "icon":"http:\/\/massuia.co.nf\/wp-includes\/images\/media\/default.png",
+            "width":55,
+            "height":68,
+            "sizes": {
+                "thumbnail": "http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/cropped-logo_nova.png", "thumbnail-width": 55, "thumbnail-height": 68, "medium": "http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/cropped-logo_nova.png", "medium-width": 55, "medium-height": 68, "medium_large": "http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/cropped-logo_nova.png", "medium_large-width": 55, "medium_large-height": 68, "large": "http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/cropped-logo_nova.png", "large-width": 55, "large-height": 68, "twentyseventeen-featured-image": "http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/cropped-logo_nova.png", "twentyseventeen-featured-image-width": 55, "twentyseventeen-featured-image-height": 68, "twentyseventeen-thumbnail-avatar": "http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/cropped-logo_nova.png", "twentyseventeen-thumbnail-avatar-width": 55, "twentyseventeen-thumbnail-avatar-height": 68
+            }
+        }
+        ,
+        "companyname":"Check-in",
+        "work":"UI\/UX Designer + FrontEnd Developer",
+        "period":"Feb 2017 - Oct 2018",
+        "responsabilities":"Creating new products focused on the hospitality sector. Working as an integral part of the development team responsable for validation               of wireframes with studies and research with users passing through the approval of mockup until the development of the final code.",
+        "companywebsite":"check-in.com.br"
+    }
+    ,
+    "_links": {
+        "self":[ {
+            "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/posts\/231"
+        }
+        ],
+        "collection":[ {
+            "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/posts"
+        }
+        ],
+        "about":[ {
+            "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/types\/post"
+        }
+        ],
+        "author":[ {
+            "embeddable": true, "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/users\/1"
+        }
+        ],
+        "replies":[ {
+            "embeddable": true, "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/comments?post=231"
+        }
+        ],
+        "version-history":[ {
+            "count": 5, "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/posts\/231\/revisions"
+        }
+        ],
+        "predecessor-version":[ {
+            "id": 342, "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/posts\/231\/revisions\/342"
+        }
+        ],
+        "wp:attachment":[ {
+            "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/media?parent=231"
+        }
+        ],
+        "wp:term":[ {
+            "taxonomy": "category", "embeddable": true, "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/categories?post=231"
+        }
+        ,
+        {
+            "taxonomy": "post_tag", "embeddable": true, "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/tags?post=231"
+        }
+        ],
+        "curies":[ {
+            "name":"wp",
+            "href":"https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }
+        ]
+    }
+}
+
+,
+{
+    "id":235,
+    "date":"2018-07-04T02:35:30",
+    "date_gmt":"2018-07-04T02:35:30",
+    "guid": {
+        "rendered": "http:\/\/tmassuia.16mb.com\/api\/?p=235"
+    }
+    ,
+    "modified":"2018-07-04T23:08:14",
+    "modified_gmt":"2018-07-04T23:08:14",
+    "slug":"oktana",
+    "status":"publish",
+    "type":"post",
+    "link":"http:\/\/massuia.co.nf\/oktana\/",
+    "title": {
+        "rendered": "Oktana"
+    }
+    ,
+    "content": {
+        "rendered": "", "protected": false
+    }
+    ,
+    "excerpt": {
+        "rendered": "", "protected": false
+    }
+    ,
+    "author":1,
+    "featured_media":0,
+    "comment_status":"open",
+    "ping_status":"open",
+    "sticky":false,
+    "template":"",
+    "format":"standard",
+    "meta":[],
+    "categories":[1],
+    "tags":[],
+    "acf": {
+        "companylogo": {
+            "ID":245,
+            "id":245,
+            "title":"logo-copy",
+            "filename":"logo-copy.png",
+            "filesize":7550,
+            "url":"http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/logo-copy.png",
+            "link":"http:\/\/massuia.co.nf\/oktana\/logo-copy\/",
+            "alt":"",
+            "author":"1",
+            "description":"",
+            "caption":"",
+            "name":"logo-copy",
+            "status":"inherit",
+            "uploaded_to":235,
+            "date":"2018-07-04 22:48:42",
+            "modified":"2018-07-04 22:48:42",
+            "menu_order":0,
+            "mime_type":"image\/png",
+            "type":"image",
+            "subtype":"png",
+            "icon":"http:\/\/massuia.co.nf\/wp-includes\/images\/media\/default.png",
+            "width":176,
+            "height":177,
+            "sizes": {
+                "thumbnail": "http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/logo-copy-150x150.png", "thumbnail-width": 150, "thumbnail-height": 150, "medium": "http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/logo-copy.png", "medium-width": 176, "medium-height": 177, "medium_large": "http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/logo-copy.png", "medium_large-width": 176, "medium_large-height": 177, "large": "http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/logo-copy.png", "large-width": 176, "large-height": 177, "twentyseventeen-featured-image": "http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/logo-copy.png", "twentyseventeen-featured-image-width": 176, "twentyseventeen-featured-image-height": 177, "twentyseventeen-thumbnail-avatar": "http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/logo-copy-100x100.png", "twentyseventeen-thumbnail-avatar-width": 100, "twentyseventeen-thumbnail-avatar-height": 100
+            }
+        }
+        ,
+        "companyname":"Oktana",
+        "work":"UI\/UX Designer",
+        "period":"Apr 2015 - Aug 2016",
+        "responsabilities":"Work daily with american clients Identifying usability and visual communication problems in applications. Designing solutions through wireframes, prototypes, and mockups . Also providing visual specs to developers.",
+        "companywebsite":"oktana.io"
+    }
+    ,
+    "_links": {
+        "self":[ {
+            "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/posts\/235"
+        }
+        ],
+        "collection":[ {
+            "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/posts"
+        }
+        ],
+        "about":[ {
+            "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/types\/post"
+        }
+        ],
+        "author":[ {
+            "embeddable": true, "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/users\/1"
+        }
+        ],
+        "replies":[ {
+            "embeddable": true, "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/comments?post=235"
+        }
+        ],
+        "version-history":[ {
+            "count": 4, "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/posts\/235\/revisions"
+        }
+        ],
+        "predecessor-version":[ {
+            "id": 254, "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/posts\/235\/revisions\/254"
+        }
+        ],
+        "wp:attachment":[ {
+            "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/media?parent=235"
+        }
+        ],
+        "wp:term":[ {
+            "taxonomy": "category", "embeddable": true, "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/categories?post=235"
+        }
+        ,
+        {
+            "taxonomy": "post_tag", "embeddable": true, "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/tags?post=235"
+        }
+        ],
+        "curies":[ {
+            "name":"wp",
+            "href":"https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }
+        ]
+    }
+}
+
+,
+{
+    "id":239,
+    "date":"2018-07-02T22:47:28",
+    "date_gmt":"2018-07-02T22:47:28",
+    "guid": {
+        "rendered": "http:\/\/tmassuia.16mb.com\/api\/?p=239"
+    }
+    ,
+    "modified":"2018-07-04T23:05:13",
+    "modified_gmt":"2018-07-04T23:05:13",
+    "slug":"conektta",
+    "status":"publish",
+    "type":"post",
+    "link":"http:\/\/massuia.co.nf\/conektta\/",
+    "title": {
+        "rendered": "Conektta"
+    }
+    ,
+    "content": {
+        "rendered": "", "protected": false
+    }
+    ,
+    "excerpt": {
+        "rendered": "", "protected": false
+    }
+    ,
+    "author":1,
+    "featured_media":0,
+    "comment_status":"open",
+    "ping_status":"open",
+    "sticky":false,
+    "template":"",
+    "format":"standard",
+    "meta":[],
+    "categories":[1],
+    "tags":[],
+    "acf": {
+        "companylogo": {
+            "ID":249,
+            "id":249,
+            "title":"conektta",
+            "filename":"conektta.png",
+            "filesize":7422,
+            "url":"http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/conektta.png",
+            "link":"http:\/\/massuia.co.nf\/conektta\/conektta-2\/",
+            "alt":"",
+            "author":"1",
+            "description":"",
+            "caption":"",
+            "name":"conektta-2",
+            "status":"inherit",
+            "uploaded_to":239,
+            "date":"2018-07-04 22:56:49",
+            "modified":"2018-07-04 22:56:49",
+            "menu_order":0,
+            "mime_type":"image\/png",
+            "type":"image",
+            "subtype":"png",
+            "icon":"http:\/\/massuia.co.nf\/wp-includes\/images\/media\/default.png",
+            "width":124,
+            "height":104,
+            "sizes": {
+                "thumbnail": "http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/conektta.png", "thumbnail-width": 124, "thumbnail-height": 104, "medium": "http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/conektta.png", "medium-width": 124, "medium-height": 104, "medium_large": "http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/conektta.png", "medium_large-width": 124, "medium_large-height": 104, "large": "http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/conektta.png", "large-width": 124, "large-height": 104, "twentyseventeen-featured-image": "http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/conektta.png", "twentyseventeen-featured-image-width": 124, "twentyseventeen-featured-image-height": 104, "twentyseventeen-thumbnail-avatar": "http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/conektta-100x100.png", "twentyseventeen-thumbnail-avatar-width": 100, "twentyseventeen-thumbnail-avatar-height": 100
+            }
+        }
+        ,
+        "companyname":"Conektta",
+        "work":"UI\/UX Designer",
+        "period":"Sep 2016 - Jan 2017",
+        "responsabilities":"Develop applications and tools of the company's products. Working from the development of applications Web for a multimedia promotional materials, production , Identify visual and usability issues in applications. besides creating wireframes, prototypes, mockups and the final code.",
+        "companywebsite":"conektta.com.br"
+    }
+    ,
+    "_links": {
+        "self":[ {
+            "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/posts\/239"
+        }
+        ],
+        "collection":[ {
+            "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/posts"
+        }
+        ],
+        "about":[ {
+            "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/types\/post"
+        }
+        ],
+        "author":[ {
+            "embeddable": true, "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/users\/1"
+        }
+        ],
+        "replies":[ {
+            "embeddable": true, "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/comments?post=239"
+        }
+        ],
+        "version-history":[ {
+            "count": 2, "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/posts\/239\/revisions"
+        }
+        ],
+        "predecessor-version":[ {
+            "id": 250, "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/posts\/239\/revisions\/250"
+        }
+        ],
+        "wp:attachment":[ {
+            "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/media?parent=239"
+        }
+        ],
+        "wp:term":[ {
+            "taxonomy": "category", "embeddable": true, "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/categories?post=239"
+        }
+        ,
+        {
+            "taxonomy": "post_tag", "embeddable": true, "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/tags?post=239"
+        }
+        ],
+        "curies":[ {
+            "name":"wp",
+            "href":"https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }
+        ]
+    }
+}
+
+,
+{
+    "id":256,
+    "date":"2018-07-01T03:46:03",
+    "date_gmt":"2018-07-01T03:46:03",
+    "guid": {
+        "rendered": "http:\/\/tmassuia.16mb.com\/api\/?p=256"
+    }
+    ,
+    "modified":"2018-07-05T03:46:40",
+    "modified_gmt":"2018-07-05T03:46:40",
+    "slug":"raro",
+    "status":"publish",
+    "type":"post",
+    "link":"http:\/\/massuia.co.nf\/raro\/",
+    "title": {
+        "rendered": "Raro"
+    }
+    ,
+    "content": {
+        "rendered": "", "protected": false
+    }
+    ,
+    "excerpt": {
+        "rendered": "", "protected": false
+    }
+    ,
+    "author":1,
+    "featured_media":0,
+    "comment_status":"open",
+    "ping_status":"open",
+    "sticky":false,
+    "template":"",
+    "format":"standard",
+    "meta":[],
+    "categories":[1],
+    "tags":[],
+    "acf": {
+        "companylogo": {
+            "ID":257,
+            "id":257,
+            "title":"new-logo-red",
+            "filename":"new-logo-red.png",
+            "filesize":5805,
+            "url":"http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/new-logo-red.png",
+            "link":"http:\/\/massuia.co.nf\/raro\/new-logo-red\/",
+            "alt":"",
+            "author":"1",
+            "description":"",
+            "caption":"",
+            "name":"new-logo-red",
+            "status":"inherit",
+            "uploaded_to":256,
+            "date":"2018-07-05 03:45:51",
+            "modified":"2018-07-05 03:45:51",
+            "menu_order":0,
+            "mime_type":"image\/png",
+            "type":"image",
+            "subtype":"png",
+            "icon":"http:\/\/massuia.co.nf\/wp-includes\/images\/media\/default.png",
+            "width":324,
+            "height":123,
+            "sizes": {
+                "thumbnail": "http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/new-logo-red-150x123.png", "thumbnail-width": 150, "thumbnail-height": 123, "medium": "http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/new-logo-red-300x114.png", "medium-width": 300, "medium-height": 114, "medium_large": "http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/new-logo-red.png", "medium_large-width": 324, "medium_large-height": 123, "large": "http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/new-logo-red.png", "large-width": 324, "large-height": 123, "twentyseventeen-featured-image": "http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/new-logo-red.png", "twentyseventeen-featured-image-width": 324, "twentyseventeen-featured-image-height": 123, "twentyseventeen-thumbnail-avatar": "http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/new-logo-red-100x100.png", "twentyseventeen-thumbnail-avatar-width": 100, "twentyseventeen-thumbnail-avatar-height": 100
+            }
+        }
+        ,
+        "companyname":"Raro Agency",
+        "work":"Designer",
+        "period":"Aug 2013 - Sep 2014",
+        "responsabilities":"",
+        "companywebsite":"raro.ag"
+    }
+    ,
+    "_links": {
+        "self":[ {
+            "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/posts\/256"
+        }
+        ],
+        "collection":[ {
+            "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/posts"
+        }
+        ],
+        "about":[ {
+            "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/types\/post"
+        }
+        ],
+        "author":[ {
+            "embeddable": true, "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/users\/1"
+        }
+        ],
+        "replies":[ {
+            "embeddable": true, "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/comments?post=256"
+        }
+        ],
+        "version-history":[ {
+            "count": 1, "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/posts\/256\/revisions"
+        }
+        ],
+        "predecessor-version":[ {
+            "id": 258, "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/posts\/256\/revisions\/258"
+        }
+        ],
+        "wp:attachment":[ {
+            "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/media?parent=256"
+        }
+        ],
+        "wp:term":[ {
+            "taxonomy": "category", "embeddable": true, "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/categories?post=256"
+        }
+        ,
+        {
+            "taxonomy": "post_tag", "embeddable": true, "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/tags?post=256"
+        }
+        ],
+        "curies":[ {
+            "name":"wp",
+            "href":"https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }
+        ]
+    }
+}
+
+,
+{
+    "id":259,
+    "date":"2018-05-01T03:58:18",
+    "date_gmt":"2018-05-01T03:58:18",
+    "guid": {
+        "rendered": "http:\/\/tmassuia.16mb.com\/api\/?p=259"
+    }
+    ,
+    "modified":"2018-07-05T03:59:18",
+    "modified_gmt":"2018-07-05T03:59:18",
+    "slug":"undergraduate-thesis",
+    "status":"publish",
+    "type":"post",
+    "link":"http:\/\/massuia.co.nf\/undergraduate-thesis\/",
+    "title": {
+        "rendered": "Undergraduate thesis"
+    }
+    ,
+    "content": {
+        "rendered": "", "protected": false
+    }
+    ,
+    "excerpt": {
+        "rendered": "", "protected": false
+    }
+    ,
+    "author":1,
+    "featured_media":0,
+    "comment_status":"open",
+    "ping_status":"open",
+    "sticky":false,
+    "template":"",
+    "format":"standard",
+    "meta":[],
+    "categories":[1],
+    "tags":[],
+    "acf": {
+        "companylogo": {
+            "ID":260,
+            "id":260,
+            "title":"logo-eco",
+            "filename":"logo-eco.jpg",
+            "filesize":29502,
+            "url":"http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/logo-eco.jpg",
+            "link":"http:\/\/massuia.co.nf\/undergraduate-thesis\/logo-eco\/",
+            "alt":"",
+            "author":"1",
+            "description":"",
+            "caption":"",
+            "name":"logo-eco",
+            "status":"inherit",
+            "uploaded_to":259,
+            "date":"2018-07-05 03:58:08",
+            "modified":"2018-07-05 03:58:08",
+            "menu_order":0,
+            "mime_type":"image\/jpeg",
+            "type":"image",
+            "subtype":"jpeg",
+            "icon":"http:\/\/massuia.co.nf\/wp-includes\/images\/media\/default.png",
+            "width":323,
+            "height":139,
+            "sizes": {
+                "thumbnail": "http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/logo-eco-150x139.jpg", "thumbnail-width": 150, "thumbnail-height": 139, "medium": "http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/logo-eco-300x129.jpg", "medium-width": 300, "medium-height": 129, "medium_large": "http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/logo-eco.jpg", "medium_large-width": 323, "medium_large-height": 139, "large": "http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/logo-eco.jpg", "large-width": 323, "large-height": 139, "twentyseventeen-featured-image": "http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/logo-eco.jpg", "twentyseventeen-featured-image-width": 323, "twentyseventeen-featured-image-height": 139, "twentyseventeen-thumbnail-avatar": "http:\/\/massuia.co.nf\/wp-content\/uploads\/2018\/07\/logo-eco-100x100.jpg", "twentyseventeen-thumbnail-avatar-width": 100, "twentyseventeen-thumbnail-avatar-height": 100
+            }
+        }
+        ,
+        "companyname":"Undergraduate thesis",
+        "work":"",
+        "period":"Jun 2011 - Jun 2012",
+        "responsabilities":"Scientific research in usability. Resulting in the development of a news portal for the third sector.",
+        "companywebsite":"unoeste.br\/facopp\/eco\/"
+    }
+    ,
+    "_links": {
+        "self":[ {
+            "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/posts\/259"
+        }
+        ],
+        "collection":[ {
+            "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/posts"
+        }
+        ],
+        "about":[ {
+            "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/types\/post"
+        }
+        ],
+        "author":[ {
+            "embeddable": true, "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/users\/1"
+        }
+        ],
+        "replies":[ {
+            "embeddable": true, "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/comments?post=259"
+        }
+        ],
+        "version-history":[ {
+            "count": 1, "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/posts\/259\/revisions"
+        }
+        ],
+        "predecessor-version":[ {
+            "id": 261, "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/posts\/259\/revisions\/261"
+        }
+        ],
+        "wp:attachment":[ {
+            "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/media?parent=259"
+        }
+        ],
+        "wp:term":[ {
+            "taxonomy": "category", "embeddable": true, "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/categories?post=259"
+        }
+        ,
+        {
+            "taxonomy": "post_tag", "embeddable": true, "href": "http:\/\/massuia.co.nf\/wp-json\/wp\/v2\/tags?post=259"
+        }
+        ],
+        "curies":[ {
+            "name":"wp",
+            "href":"https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }
+        ]
+    }
+}
+
+]

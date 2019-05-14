@@ -1,0 +1,31 @@
+<section id="projects" class="container mb-10">
+        <h2 class="text-center">My Projects</h2>
+        <div class="wrapper mb-10">
+                <ul id="tech">
+                    <li id="all" class="active tech"><i class="material-icons">view_comfy</i> All Techs</li>
+                  <li id="research" class="tech"><i class="material-icons">search</i> Research, Study &amp; Pageflow</li>
+                      <li id="code" class="tech"><i class="material-icons">code</i> Front-End Code</li>
+                      <li id="mkt" class="tech"><i class="material-icons">whatshot</i> Branding &amp; Marketing</li>
+                      <li id="ui" class="tech "><i class="material-icons">touch_app</i> Pixel Perfect Mockup &amp; Prototype</li>
+                      <li id="ux" class="tech "><i class="material-icons">web</i> Information Architecture &amp; wireframe</li>
+                    <li id="specs" class="tech"><i class="material-icons">photo_size_select_large</i> Specs &amp; Assets</li>            
+                  </ul>
+                </div>
+                </section>
+                <app-loader></app-loader>
+    <section class="container">
+  <div id="parent" class="row m-auto">
+      <div *ngFor="let post of posts" class="{{post.acf.hometech}}  col-md-4 col-lg-3 col-xs-12">
+        <a [routerLink]="['/post', post.id]" class="tile  {{ post.acf.tilecolor }}">
+          <div class="tile-bg">
+            <img src="{{ post.acf.clientlogo.url }}">
+            <h3 class="tile-title">{{ post.title.rendered }}</h3>
+          </div>
+
+          </a>
+
+    </div>
+
+  </div>
+</section>
+

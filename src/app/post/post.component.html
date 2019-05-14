@@ -1,0 +1,83 @@
+<app-loader></app-loader>
+
+<section  id="banner" class="topbanner container-fluid covered {{ posts.acf.tilecolor }}" >
+  <div class="gradient-bg row pb-20">
+    
+    <div class="col-md-6 col-xs-12 text-center">
+          <img class="hero-img" src="{{ posts.acf.heroimage.sizes.medium }}">
+      </div>
+
+      <div class="responsive-info col-md-6 col-xs-12 pb-20">
+          <img class="mb-10" src="{{ posts.acf.clientlogo.sizes.large }}">
+          <h1>{{ posts.acf.titletitle }}</h1>
+          <p>{{ posts.acf.shortdescription }}</p>
+          <div *ngIf="posts.acf.linktoproject" #noLink><a class="ghost" href="{{ posts.acf.linktoproject }}" target="_blank">See Live</a></div> 
+      </div>
+      
+    </div>
+</section>
+<app-curve></app-curve>
+<div  class="text-center wrapper">
+  <li class="tech-text"> RESPONSABILITIES: </li>
+  <li class=" tech tech-research tech-array" *ngFor="let usedtechs of posts.acf.tech" id="" >{{usedtechs}}</li>
+</div>
+
+<section class="container">
+  <h2 class="text-center"> Screenshots </h2>
+  <div class="gallery row screenshots text-center">
+      
+
+      <a class="col-xs-6 col-lg-3 col-md-4" href="{{ posts.acf.photo1.sizes.large }}" data-title="{{ posts.acf.photo1.title }}" data-lightbox="example-set">
+        <img class="example-image" src="{{ posts.acf.photo1.sizes.medium }}" alt="{{ posts.acf.photo1.title }}" />
+      </a>
+
+      <a class="col-xs-6 col-lg-3 col-md-4" href="{{ posts.acf.photo2.sizes.large }}" data-title="{{ posts.acf.photo2.title }}" data-lightbox="example-set">
+        <img class="example-image" src="{{ posts.acf.photo2.sizes.medium }}" alt="" />
+      </a>
+
+      <a class="col-xs-6 col-lg-3 col-md-4" href="{{ posts.acf.photo3.sizes.large }}" data-title="{{ posts.acf.photo3.title }}"  data-lightbox="example-set">
+        <img class="example-image" src="{{ posts.acf.photo3.sizes.medium }}" alt="" />
+      </a>
+      
+      <a class="col-xs-6 col-lg-3 col-md-4" href="{{ posts.acf.photo4.sizes.large }}" data-title="{{ posts.acf.photo4.title }}"  data-lightbox="example-set">
+        <img class="example-image" src="{{ posts.acf.photo4.sizes.medium }}" alt="" />
+      </a>
+
+      <a class="col-xs-6 col-lg-3 col-md-4" href="{{ posts.acf.photo5.sizes.large }}" data-lightbox="example-set" data-title="{{ posts.acf.photo5.title }}" >
+        <img class="example-image" src="{{ posts.acf.photo5.sizes.medium }}" alt="" />
+      </a>
+      
+      <a class="col-xs-6 col-lg-3 col-md-4" href="{{ posts.acf.photo6.sizes.large }}" data-lightbox="example-set" data-title="{{ posts.acf.photo6.title }}" >
+        <img class="example-image" src="{{ posts.acf.photo6.sizes.medium }}" alt="" />
+      </a>
+
+              <a class="col-xs-6 col-lg-3 col-md-4" href="{{ posts.acf.photo7.sizes.large }}" data-title="{{ posts.acf.photo1.title }}" data-lightbox="example-set">
+        <img class="example-image" src="{{ posts.acf.photo7.sizes.medium }}" alt="{{ posts.acf.photo1.title }}" />
+      </a>
+
+      <a class="col-xs-6 col-lg-3 col-md-4" href="{{ posts.acf.photo8.sizes.large }}" data-title="{{ posts.acf.photo8.title }}" data-lightbox="example-set">
+        <img class="example-image" src="{{ posts.acf.photo8.sizes.medium }}" alt="" />
+      </a>
+
+      <a class="col-xs-6 col-lg-3 col-md-4" href="{{ posts.acf.photo9.sizes.large }}" data-title="{{ posts.acf.photo9.title }}"  data-lightbox="example-set">
+        <img class="example-image" src="{{ posts.acf.photo9.sizes.medium }}" alt="" />
+      </a>
+      
+      <a class="col-xs-6 col-lg-3 col-md-4" href="{{ posts.acf.photo10.sizes.large }}" data-title="{{ posts.acf.photo10.title }}"  data-lightbox="example-set">
+        <img class="example-image" src="{{ posts.acf.photo10.sizes.medium }}" alt="" />
+      </a>
+
+      <a class="col-xs-6 col-lg-3 col-md-4" href="{{ posts.acf.photo11.sizes.large }}" data-lightbox="example-set" data-title="{{ posts.acf.photo11.title }}" >
+        <img class="example-image" src="{{ posts.acf.photo11.sizes.medium }}" alt="" />
+      </a>
+      
+      <a class="col-xs-6 col-lg-3 col-md-4" href="{{ posts.acf.photo12.sizes.large }}" data-lightbox="example-set" data-title="{{ posts.acf.photo12.title }}" >
+        <img class="example-image" src="{{ posts.acf.photo12.sizes.medium }}" alt="" />
+      </a>
+</div>
+ </section>
+<div class="text-center mb-20"> 
+    <!-- <a class="ghost btn-light" [routerLink]="['/post', 203]">Preview</a>
+    <a class="ghost btn-light" [routerLink]="['/post', 215]">next</a> -->
+  <a class="ghost btn-light " routerLinkActive="active"  [routerLink]="['../../home']" >Back to projects</a>
+</div>
