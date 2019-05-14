@@ -1,7 +1,10 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { PostService } from '../post.service';
+import { HttpClient } from '@angular/common/http';
+
 import { CurveComponent} from '../curve/curve.component';
+import { environment } from '../../environments/environment';
 declare var jquery:any;
 declare var $ :any;
 
@@ -18,10 +21,11 @@ export class PostComponent implements OnInit {
     hasLink = true;
     comments: Array<any> = [];
     posts:any;
-
-    
+    project = [];
+    projectID: any;
 
     constructor(
+        private httpClient:HttpClient,
         private route: ActivatedRoute,
         private p: PostService,
   
@@ -30,18 +34,24 @@ export class PostComponent implements OnInit {
        
     }
 
+    getProjectId(){
+        this.httpClient.get(environment.endpoint + `projects/` + this.projectID).subscribe(
+          (data: any[]) => {
+            this.project = data;
+            console.log(this.project);
+          }
+        )
+      }
+
     ngOnInit() {
         this.posts = [];
         this.route.params.forEach((params: Params) => {
-            
             let id = +params['id'];
             console.log(params);
+            this.projectID = params.id;
 
             //Post
-            this.p.getPost(id).subscribe(
-                r => this.posts = r,
-                error => console.error('Error: ' + error)
-            );
+          this.getProjectId()
         });
 
 

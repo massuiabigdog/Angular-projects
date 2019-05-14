@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
+import { environment } from '../environments/environment'
 import 'rxjs/add/operator/map';
 
 declare var jquery:any;
@@ -8,7 +9,7 @@ declare var $ :any;
 @Injectable()
 export class PostService {
 
-    endpoint = "http://www.massuia.co.nf/wp-json/wp/v2/projects";
+    endpoint = environment.endpoint;
   constructor(private http: Http) {
     console.log(this.endpoint);
    }
@@ -21,7 +22,7 @@ export class PostService {
 
 
   getPost(id) {
-      return this.http.get(this.endpoint + '/' +  id)
+      return this.http.get(this.endpoint + '/projects/' +  id)
           .map(response => response.json());
           
   }

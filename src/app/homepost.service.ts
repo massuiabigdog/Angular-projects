@@ -8,7 +8,7 @@ declare var $ :any;
 @Injectable()
 export class HomePostService {
 
-    endpoint = "localhost:3000/projects/";
+    endpoint = "http://localhost:3000/projects/";
   constructor(private http: Http) {
     console.log(this.endpoint);
    }

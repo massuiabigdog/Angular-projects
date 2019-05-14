@@ -18,7 +18,7 @@ import { NgModule } from "@angular/core";
         { path: 'page', component: PageComponent},   
         { path: 'contact', component: ContactComponent},   
         { path: 'home', component: HomeComponent},   
-        { path: 'post/:id', component: PostComponent},
+        { path: 'project/:id', component: PostComponent},
         { path: 'Jobs/:name', component: JobDetailComponent},
  ];
 

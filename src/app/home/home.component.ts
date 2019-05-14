@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HomePostService } from '../homepost.service';
-
+import { HttpClient } from '@angular/common/http';
+import { environment } from '../../environments/environment'
 declare var jquery:any;
 declare var $ :any;
 
@@ -14,18 +15,24 @@ declare var $ :any;
 export class HomeComponent implements OnInit {
 
     posts:Array<any> = [];
+    projects = [];
 
-    constructor(private p: HomePostService) {
-        this.p.getAll().subscribe(
-            result => this.posts = result,
+    constructor(private httpClient:HttpClient,
+      ) {
 
-            error => console.error('Error: ')
+    }
 
-        );
-        console.log(this.posts);
+    getProfile(){
+      this.httpClient.get(environment.endpoint +'projects/').subscribe(
+        (data: any[]) => {
+          this.projects = data;
+          console.log(this.projects);
+        }
+      )
     }
 
     ngOnInit() {
+      this.getProfile();
         var $btns = $('.tech').click(function() {
   if (this.id == 'all') {
     $('#parent > div').fadeIn(950);

@@ -15,7 +15,7 @@
                 <app-loader></app-loader>
     <section class="container">
   <div id="parent" class="row m-auto">
-      <div *ngFor="let post of posts" class="{{post.acf.hometech}}  col-md-4 col-lg-3 col-xs-12">
+      <!-- <div *ngFor="let post of posts" class="{{post.acf.hometech}}  col-md-4 col-lg-3 col-xs-12">
         <a [routerLink]="['/post', post.id]" class="tile  {{ post.acf.tilecolor }}">
           <div class="tile-bg">
             <img src="{{ post.acf.clientlogo.url }}">
@@ -24,7 +24,21 @@
 
           </a>
 
+    </div> -->
+  <div *ngFor="let project of projects" class="{{project.tech}}
+    col-md-4 col-lg-3 col-xs-12">
+        <a [routerLink]="['/project', project._id ]" class="tile  {{ project.tilecolor }}">
+          <div class="tile-bg">
+            <img src="">
+            <h3 class="tile-title">{{ project.title }}</h3>
+          </div>
+
+          </a>
+
+
+
     </div>
+
 
   </div>
 </section>
