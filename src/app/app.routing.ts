@@ -10,6 +10,7 @@ import { PostComponent } from './post/post.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
 import { CrmComponent } from './crm/crm.component';
+import { CrmdetailComponent } from './crm/crmdetail/crmdetail.component';
 
 import { NgModule } from "@angular/core";
 
@@ -20,6 +21,7 @@ import { NgModule } from "@angular/core";
         { path: 'contact', component: ContactComponent},   
         { path: 'home', component: HomeComponent},   
         { path: 'project/:id', component: PostComponent},
+        { path: 'detail/:id', component: CrmdetailComponent},
         { path: 'Jobs/:name', component: JobDetailComponent},
  ];
 

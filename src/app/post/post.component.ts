@@ -30,7 +30,7 @@ export class PostComponent implements OnInit {
         private p: PostService,
   
     ) {
-        
+         
        
     }
 
@@ -51,7 +51,7 @@ export class PostComponent implements OnInit {
             this.projectID = params.id;
 
             //Post
-          this.getProjectId()
+          this.getProjecatId()
         });
 
 

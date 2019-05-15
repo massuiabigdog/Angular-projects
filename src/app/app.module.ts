@@ -23,6 +23,7 @@ import { ContactComponent } from './contact/contact.component';
 import { LoaderComponent } from './loader/loader.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { CrmComponent } from './crm/crm.component';
+import { CrmdetailComponent } from './crm/crmdetail/crmdetail.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { CrmComponent } from './crm/crm.component';
     LoaderComponent,
     SidenavComponent,
     CrmComponent,
+    CrmdetailComponent,
  ],
   imports: [
     BrowserModule,
