@@ -22,6 +22,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
 import { LoaderComponent } from './loader/loader.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
+import { CrmComponent } from './crm/crm.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { SidenavComponent } from './sidenav/sidenav.component';
     ContactComponent,
     LoaderComponent,
     SidenavComponent,
+    CrmComponent,
  ],
   imports: [
     BrowserModule,

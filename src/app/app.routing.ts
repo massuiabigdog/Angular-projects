@@ -9,13 +9,14 @@ import { JobDetailComponent } from "./Job-detail.component";
 import { PostComponent } from './post/post.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
+import { CrmComponent } from './crm/crm.component';
 
 import { NgModule } from "@angular/core";
 
  const APP_ROUTES: Routes = [
         { path: '', redirectTo: '/home', pathMatch: 'full'},
         { path: 'about', component: AboutComponent},
-        { path: 'page', component: PageComponent},   
+        { path: 'crm', component: CrmComponent},   
         { path: 'contact', component: ContactComponent},   
         { path: 'home', component: HomeComponent},   
         { path: 'project/:id', component: PostComponent},

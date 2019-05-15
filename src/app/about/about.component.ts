@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
 import {Observable} from 'rxjs/Rx';
 import 'rxjs/add/operator/catch';
+import { environment } from '../../environments/environment';
 
 
 declare var jquery:any;
@@ -15,37 +16,24 @@ declare var $ :any;
 })
 export class AboutComponent implements OnInit {
   private _url= './assets/posts.json';
-
+jobs =  [];
   posts = [];
-  constructor(private http: HttpClient) {
+  constructor(private httpClient: HttpClient) {
     var obj;
-    this.getJSON().subscribe(data => obj=data, error => console.log(error));
   }
 
-
-public getJSON(): Observable<any> {
-    return this.http.get("./app/assets/posts.json")
-                    .map((res:any) => res.json())
-
-}
-debugger;
-  ngOnInit(): void {
-    
-    console.log( "start!" );
-
-
-    this.http.get(this._url).subscribe( data => {
-      
-      for(let key in data){
-        if(data.hasOwnProperty(key)){
-          this.posts.push(data[key]);
-        }
+  getJobs(){
+    this.httpClient.get(environment.endpoint + `jobs/`).subscribe(
+      (data: any[]) => {
+        this.jobs = data;
+        console.log(this.jobs);
       }
+    )
+  }
 
-
-      console.log(this.posts);
-    })
-
+  ngOnInit(): void {
+    console.log( "start!" );
+    this.getJobs();
   }
   
 }
