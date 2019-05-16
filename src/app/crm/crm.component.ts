@@ -4,6 +4,7 @@ import { environment } from '../../environments/environment';
 import { Observable } from 'rxjs/Observable';
 import { HttpHeaders } from '@angular/common/http';
 import { multicast } from 'rxjs/operator/multicast';
+import {Router} from "@angular/router";
 
 const httpOptions = {
   headers: new HttpHeaders({
@@ -20,14 +21,17 @@ export class CrmComponent implements OnInit {
 project = [];
 xxx: any;
 jobs = [];
+
 currentProject: any = multicast;
 currentJob = [];
 newproject = new newproject();
 newjob = new newjob();
+message: string;
 
 posts: Observable<any>;
   newPost: Observable<any>;
   constructor(
+    private router: Router,
     private httpClient:HttpClient,
 
   ) { }
@@ -41,14 +45,19 @@ posts: Observable<any>;
     this.httpClient.get(environment.endpoint + `projects/`).subscribe(
       (data: any[]) => {
         this.project = data;
+        console.log('xxx');
         console.log(this.project);
       }
     )
   }
+ 
+
   chooseProject(xxx: any) {
-    debugger;
-  this.currentProject = xxx;
-  console.log(this.currentProject);
+  //   debugger;
+  //   this.message = 'project';
+  // this.currentProject = xxx;
+  // console.log(this.currentProject);
+  // this.router.navigate(['/detail', this.ID]);
   }
   // postProject() {
   //   const data: Post = {
@@ -68,12 +77,13 @@ posts: Observable<any>;
   //   this.httpClient.post<Post>(environment.endpoint + `projects/`, data, httpOptions)
 
 
-//  }
+//  } 
 
   getJobs(){
     this.httpClient.get(environment.endpoint + `jobs/`).subscribe(
       (data: any[]) => {
         this.jobs = data;
+        console.log('zzz');
         console.log(this.jobs);
       }
     )

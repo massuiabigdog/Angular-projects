@@ -341,6 +341,9 @@ body, div, span, h1, h2, h3, h4, h5, h6, p, q, ul, ol, header, footer, nav, sect
 .mb-10 {
 	margin-bottom: 10px!important;
 }
+.mt-10 {
+	margin-top: 10px!important;
+}
 
 body {
 	font-family: 'Montserrat', sans-serif;

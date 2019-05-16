@@ -10,7 +10,9 @@
 <br>
 
 <div *ngFor="let j of jobs">
+  <div  [routerLink]="['/detail', j._id ]">
 <p>xxx</p>
+</div>
 </div>
 
 <button (click)="postProject()"> post project</button>

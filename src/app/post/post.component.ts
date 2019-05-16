@@ -51,7 +51,7 @@ export class PostComponent implements OnInit {
             this.projectID = params.id;
 
             //Post
-          this.getProjecatId()
+          this.getProjectId()
         });
 
 
