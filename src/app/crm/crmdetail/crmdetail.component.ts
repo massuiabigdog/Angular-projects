@@ -65,7 +65,7 @@ export class CrmdetailComponent implements OnInit {
         
         console.log(this.projects);
         this.techs = data.tech;
-        this.projectphotos = data.photoarray;
+       // this.projectphotos = data.photoarray;
       }
     )
   }
