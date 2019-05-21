@@ -1,0 +1,53 @@
+<app-loader></app-loader>
+
+<div class="container">
+  <div class="row" style="margin: 50px -10px;">
+        <div class="col-md-6 col-xs-12 text-center">
+                <img class="photo-about" src="../../assets/responsive-aboutprofile.jpg"/>
+            </div>
+    <div class="col-md-6 col-xs-12">
+  <h1 class="head-title">Who I'm ?!</h1>
+  <p>
+    I’m a User Experience Designer, born and raised in Brazil. I'm living on Florianópolis, after two years working in Montevideo.
+</p>
+<p>I'm passionate about User Experience and User Interface Design. Always focusing on user-centered design methodologies.</p>
+    <p>
+      I try to create efficient and innovative experiences that balance user needs and business goals.
+  </p>
+  <a class="ghost btn-main mb-10" [routerLink]="['../home']">Projects</a>
+  <a class="ghost btn-secondary mb-10" href="http://tmassuia.com" target="_blank">tmassuia.com</a>
+
+</div>
+
+</div>
+
+<div class="col-xs-12">
+    <h2 class="">Highlighted Expeciences</h2>
+  </div>
+
+
+    
+
+  <div class="row">
+      <div *ngFor="let job of jobs" class="col-md-4 col-xs-12">
+            
+          <div class="experience-box text-center ">
+              <div class="">
+                <img class="company-logo" src="{{ job.companylogo }}">
+                <h1> {{ post.acf.companyname }} </h1>
+                <a class="subtitle" href="http://{{ job.companywebsite }}" target="_blank">{{job.companywebsite}}</a>
+                <h3>{{job.work}}                <span>{{post.acf.period}}</span></h3>
+        <div *ngIf="job.responsabilities">
+              <hr>
+          <h6 class="text-center responsabilities">Major Responsabilities</h6>
+          <p class="responsabilities-text">
+                {{job.responsabilities}}
+          </p>
+        </div>
+        </div>
+          </div>
+          </div>
+
+       
+</div>
+</div>

@@ -1,0 +1,92 @@
+<div class="container mt-40">
+
+
+<div class="row" *ngIf="!isProject" id="jobsdetails">
+<div class="col-12"><h2>Job Detail</h2></div>
+  <div class="col-lg-4 col-sm-6 col-md-6 col-12 mt-10" >
+    <h6>ID</h6>
+    <h3>{{jobs._id}}</h3>
+  </div>
+  <div class="col-lg-4 col-sm-6 col-md-6 col-12 mt-10">
+    <h6>Logo</h6>
+    <h3>{{jobs.companylogo}}</h3>
+  </div>
+  <div class="col-lg-4 col-sm-6 col-md-6 col-12 mt-10">
+    <h6>Company name</h6>
+    <h3>{{jobs.companyname}}</h3>
+  </div>
+  <div class="col-lg-4 col-sm-6 col-md-6 col-12 mt-10">
+    <h6>Job Title</h6>
+    <h3>{{jobs.work}}</h3>
+  </div>
+  <div class="col-lg-4 col-sm-6 col-md-6 col-12 mt-10">
+    <h6>Period</h6>
+    <h3>{{jobs.period}}</h3>
+  </div>
+  <div class="col-lg-12 col-sm-12 col-md-12 col-12 mt-10">
+    <h6>Responsabilities</h6>
+    <h3>{{jobs.responsabilities}}</h3>
+  </div>
+
+  <div class="col-12">
+    <div class="text-center mt-20">
+      <a style="background-color:crimson" class="ghost btn-main mb-10">Delete job</a>
+    </div>
+    </div>
+
+</div>
+
+
+
+
+<div class="row" *ngIf="isProject" id="projectsdetails">
+<div class="col-12"><h2>Project Detail</h2></div>
+  <div class="col-lg-4 col-sm-6 col-md-6 col-12 mt-10" >
+    <h6>ID</h6>
+    <h3>{{projects._id}}</h3>
+  </div>
+  <div class="col-lg-4 col-sm-6 col-md-6 col-12 mt-10">
+    <h6>Title</h6>
+    <h3>{{projects.title}}</h3>
+  </div>
+  <div class="col-lg-4 col-sm-6 col-md-6 col-12 mt-10">
+    <h6>Description</h6>
+    <h3>{{projects.shortdescription}}</h3>
+  </div>
+  <div class="col-lg-4 col-sm-6 col-md-6 col-12 mt-10">
+    <h6>link to project</h6>
+    <h3>{{projects.linktoproject}}</h3>
+  </div>
+  <div class="col-lg-4 col-sm-6 col-md-6 col-12 mt-10">
+    <h6>HeroImage</h6>
+    <h3>{{projects.heroimage}}</h3>
+  </div>
+  <div class="col-lg-4 col-sm-6 col-md-6 col-12 mt-10">
+      <h6>Logo</h6>
+    <h3>{{projects.clientlogo}}</h3>
+  </div>
+  <div class="col-lg-4 col-sm-6 col-md-6 col-12 mt-10">
+      <h6>Logo</h6>
+      <h3>{{projects.tech}}</h3>
+    </div>
+    <div class="col-lg-4 col-sm-6 col-md-6 col-12 mt-10">
+        <h6>color</h6>
+      <h3></h3>
+    </div>
+    <div class="col-lg-4 col-sm-6 col-md-6 col-12 mt-10">
+        <h6>Photo</h6>
+        <h3></h3>
+      </div>
+
+  <div class="col-12">
+    <div class="text-center mt-20">
+      <a style="background-color:crimson" class="ghost btn-main mb-10">Delete job</a>
+      <a style="background-color:crimson" class="ghost btn-secondary mb-10">Delete job</a>
+    </div>
+    </div>
+
+</div>
+<div class="col-12 text-center">
+    <a class="ghost btn-secondary mb-10" [routerLink]="['/crm']">Return</a>
+</div>
+</div>

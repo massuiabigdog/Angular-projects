@@ -1,0 +1,22 @@
+.appheader {
+    background-color: rgba(0,0,0,0.2)!important;
+        margin-bottom: -60px;
+        z-index: 1;
+    }
+
+    .sl-wrapper .sl-image {
+        box-shadow: 1px 0px 18px #ccc;
+    }
+
+    .sl-total {
+        display: none!important;
+    }
+
+    .tech-text {
+        font-size: 13px;
+        line-height: 52px;
+        display: block;
+        font-weight: 600;
+        opacity: 0.5;
+        margin-top: -20px;
+    }
