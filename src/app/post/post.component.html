@@ -26,58 +26,53 @@
   <h2 class="text-center"> Screenshots </h2>
   <div class="gallery row screenshots text-center">
 
-    
-      <a *ngFor="let photos of project.photo" class="col-xs-6 col-lg-3 col-md-4" href="{{ photos }}" data-title="{{ photos }}" data-lightbox="example-set">
-        <img class="example-image" src="{{photos}}" alt="{{ photos }}" />
+      <a class="col-xs-6 col-lg-3 col-md-4" *ngIf="project.photo.photo1" href="{{ project.photo.photo1 }}">
+        <img class="example-image" src="{{ project.photo.photo1 }}" alt="" />
       </a>
 
-      <!-- <a class="col-xs-6 col-lg-3 col-md-4" href="{{ posts.acf.photo1.sizes.large }}" data-title="{{ posts.acf.photo1.title }}" data-lightbox="example-set">
-        <img class="example-image" src="{{ posts.acf.photo1.sizes.medium }}" alt="{{ posts.acf.photo1.title }}" />
+      <a class="col-xs-6 col-lg-3 col-md-4" *ngIf="project.photo.photo2" href="{{ project.photo.photo2 }}">
+        <img class="example-image" src="{{ project.photo.photo2 }}" alt="" />
       </a>
 
-      <a class="col-xs-6 col-lg-3 col-md-4" href="{{ posts.acf.photo2.sizes.large }}" data-title="{{ posts.acf.photo2.title }}" data-lightbox="example-set">
-        <img class="example-image" src="{{ posts.acf.photo2.sizes.medium }}" alt="" />
-      </a>
-
-      <a class="col-xs-6 col-lg-3 col-md-4" href="{{ posts.acf.photo3.sizes.large }}" data-title="{{ posts.acf.photo3.title }}"  data-lightbox="example-set">
-        <img class="example-image" src="{{ posts.acf.photo3.sizes.medium }}" alt="" />
+      <a class="col-xs-6 col-lg-3 col-md-4" *ngIf="project.photo.photo3" href="{{ project.photo.photo3 }}" >
+        <img class="example-image" src="{{ project.photo.photo3 }}" alt="" />
       </a>
       
-      <a class="col-xs-6 col-lg-3 col-md-4" href="{{ posts.acf.photo4.sizes.large }}" data-title="{{ posts.acf.photo4.title }}"  data-lightbox="example-set">
-        <img class="example-image" src="{{ posts.acf.photo4.sizes.medium }}" alt="" />
+      <a class="col-xs-6 col-lg-3 col-md-4" *ngIf="project.photo.photo4" href="{{ project.photo.photo4 }}" >
+        <img class="example-image" src="{{ project.photo.photo4 }}" alt="" />
       </a>
 
-      <a class="col-xs-6 col-lg-3 col-md-4" href="{{ posts.acf.photo5.sizes.large }}" data-lightbox="example-set" data-title="{{ posts.acf.photo5.title }}" >
-        <img class="example-image" src="{{ posts.acf.photo5.sizes.medium }}" alt="" />
+      <a class="col-xs-6 col-lg-3 col-md-4" *ngIf="project.photo.photo5" href="{{ project.photo.photo5 }}" >
+        <img class="example-image" src="{{ project.photo.photo5 }}" alt="" />
       </a>
       
-      <a class="col-xs-6 col-lg-3 col-md-4" href="{{ posts.acf.photo6.sizes.large }}" data-lightbox="example-set" data-title="{{ posts.acf.photo6.title }}" >
-        <img class="example-image" src="{{ posts.acf.photo6.sizes.medium }}" alt="" />
+      <a class="col-xs-6 col-lg-3 col-md-4" *ngIf="project.photo.photo6" href="{{ project.photo.photo6 }}" >
+        <img class="example-image" src="{{ project.photo.photo6 }}" alt="" />
       </a>
 
-              <a class="col-xs-6 col-lg-3 col-md-4" href="{{ posts.acf.photo7.sizes.large }}" data-title="{{ posts.acf.photo1.title }}" data-lightbox="example-set">
-        <img class="example-image" src="{{ posts.acf.photo7.sizes.medium }}" alt="{{ posts.acf.photo1.title }}" />
+              <a class="col-xs-6 col-lg-3 col-md-4" *ngIf="project.photo.photo7" href="{{ project.photo.photo7 }}">
+        <img class="example-image" src="{{ project.photo.photo7 }}" alt="{{ project.photo.photo1.title }}" />
       </a>
 
-      <a class="col-xs-6 col-lg-3 col-md-4" href="{{ posts.acf.photo8.sizes.large }}" data-title="{{ posts.acf.photo8.title }}" data-lightbox="example-set">
-        <img class="example-image" src="{{ posts.acf.photo8.sizes.medium }}" alt="" />
+      <a class="col-xs-6 col-lg-3 col-md-4" *ngIf="project.photo.photo8" href="{{ project.photo.photo8 }}">
+        <img class="example-image" src="{{ project.photo.photo8 }}" alt="" />
       </a>
 
-      <a class="col-xs-6 col-lg-3 col-md-4" href="{{ posts.acf.photo9.sizes.large }}" data-title="{{ posts.acf.photo9.title }}"  data-lightbox="example-set">
-        <img class="example-image" src="{{ posts.acf.photo9.sizes.medium }}" alt="" />
+      <a class="col-xs-6 col-lg-3 col-md-4" *ngIf="project.photo.photo9" href="{{ project.photo.photo9 }}" >
+        <img class="example-image" src="{{ project.photo.photo9 }}" alt="" />
       </a>
       
-      <a class="col-xs-6 col-lg-3 col-md-4" href="{{ posts.acf.photo10.sizes.large }}" data-title="{{ posts.acf.photo10.title }}"  data-lightbox="example-set">
-        <img class="example-image" src="{{ posts.acf.photo10.sizes.medium }}" alt="" />
+      <a class="col-xs-6 col-lg-3 col-md-4" *ngIf="project.photo.photo10" href="{{ project.photo.photo10 }}" >
+        <img class="example-image" src="{{ project.photo.photo10 }}" alt="" />
       </a>
 
-      <a class="col-xs-6 col-lg-3 col-md-4" href="{{ posts.acf.photo11.sizes.large }}" data-lightbox="example-set" data-title="{{ posts.acf.photo11.title }}" >
-        <img class="example-image" src="{{ posts.acf.photo11.sizes.medium }}" alt="" />
+      <a class="col-xs-6 col-lg-3 col-md-4" *ngIf="project.photo.photo11" href="{{ project.photo.photo11 }}" >
+        <img class="example-image" src="{{ project.photo.photo11 }}" alt="" />
       </a>
       
-      <a class="col-xs-6 col-lg-3 col-md-4" href="{{ posts.acf.photo12.sizes.large }}" data-lightbox="example-set" data-title="{{ posts.acf.photo12.title }}" >
-        <img class="example-image" src="{{ posts.acf.photo12.sizes.medium }}" alt="" />
-      </a> -->
+      <a class="col-xs-6 col-lg-3 col-md-4" *ngIf="project.photo.photo12" href="{{ project.photo.photo12 }}" >
+        <img class="example-image" src="{{ project.photo.photo12 }}" alt="" />
+      </a>
 </div>
  </section>
 <div class="text-center mb-20"> 

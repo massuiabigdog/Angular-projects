@@ -23,6 +23,7 @@ export class PostComponent implements OnInit {
     posts:any;
     project = [];
     projectID: any;
+    screenshots = [];
 
     constructor(
         private httpClient:HttpClient,
@@ -38,7 +39,9 @@ export class PostComponent implements OnInit {
         this.httpClient.get(environment.endpoint + `projects/` + this.projectID).subscribe(
           (data: any[]) => {
             this.project = data;
+       //     this.screenshots = this.project.photo;
             console.log(this.project);
+            console.log(this.screenshots);
           }
         )
       }
@@ -53,7 +56,7 @@ export class PostComponent implements OnInit {
             //Post
           this.getProjectId()
         });
-
+ 
 
         
 $(function(){

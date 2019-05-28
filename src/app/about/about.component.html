@@ -24,7 +24,7 @@
 <div class="col-xs-12">
     <h2 class="">Highlighted Expeciences</h2>
   </div>
-
+ 
 
     
 
@@ -34,9 +34,9 @@
           <div class="experience-box text-center ">
               <div class="">
                 <img class="company-logo" src="{{ job.companylogo }}">
-                <h1> {{ post.acf.companyname }} </h1>
+                <h1> {{ job.companyname }} </h1>
                 <a class="subtitle" href="http://{{ job.companywebsite }}" target="_blank">{{job.companywebsite}}</a>
-                <h3>{{job.work}}                <span>{{post.acf.period}}</span></h3>
+                <h3>{{job.work}}                <span>{{job.period}}</span></h3>
         <div *ngIf="job.responsabilities">
               <hr>
           <h6 class="text-center responsabilities">Major Responsabilities</h6>
