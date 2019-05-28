@@ -27,8 +27,8 @@
   <div class="gallery row screenshots text-center">
 
     
-      <a *ngFor="let photos of project.photoarray" class="col-xs-6 col-lg-3 col-md-4" href="{{ photos }}" data-title="{{ photos }}" data-lightbox="example-set">
-        <img class="example-image" src="" alt="{{ photos }}" />
+      <a *ngFor="let photos of project.photo" class="col-xs-6 col-lg-3 col-md-4" href="{{ photos }}" data-title="{{ photos }}" data-lightbox="example-set">
+        <img class="example-image" src="{{photos}}" alt="{{ photos }}" />
       </a>
 
       <!-- <a class="col-xs-6 col-lg-3 col-md-4" href="{{ posts.acf.photo1.sizes.large }}" data-title="{{ posts.acf.photo1.title }}" data-lightbox="example-set">

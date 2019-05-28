@@ -11,7 +11,7 @@ import { Subscription } from 'rxjs/Subscription';
   styleUrls: ['./crmdetail.component.css']
 })
 export class CrmdetailComponent implements OnInit {
-  projects = [];
+  projects : any;
   techs : any;
   photoarray: any = [];
   projectphotos: any = [];
@@ -30,6 +30,26 @@ export class CrmdetailComponent implements OnInit {
  
 
   
+   getprojectID() {
+    var server;
+     return fetch(environment.endpoint +  'projects/' + this.ID, {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      })
+        .then(function (response) {
+          server = response;
+          console.log(server);
+          return response.json();
+        })
+        .then(function (myJson)  {
+          console.log(myJson);
+          this.projects = myJson;
+          this.techs = this.projects.tech;
+          this.photoarray = this.projects.photoarray;
+        }.bind(this)) ;
+        }
 
 
     getJobID() {
@@ -57,19 +77,6 @@ export class CrmdetailComponent implements OnInit {
           }.bind(this)) ;
           }
 
-
-  getProjectId(){
-    this.httpClient.get(environment.endpoint + `projects/` + this.ID).subscribe(
-      (data: any[]) => {
-        this.projects = data;
-        
-        console.log(this.projects);
-        this.techs = data.tech;
-       // this.projectphotos = data.photoarray;
-      }
-    )
-  }
-
 ngOnInit() {
     this.projects = [];
     this.route.params.forEach((params: Params) => {
@@ -78,7 +85,7 @@ ngOnInit() {
         this.ID = params.id;
 
         //Post
-      this.getProjectId();
+      this.getprojectID();
       this.getJobID();
     });
 }

@@ -3,15 +3,14 @@
 </p>
 
 <div  *ngFor="let p of project" >
-<div [routerLink]="['/detail', p._id ]"><p>sss</p> </div>
+<div [routerLink]="['/detail', p._id ]"><p>{{p.title}}</p> </div>
 </div>
 
-
-<br>
+<hr>
 
 <div *ngFor="let j of jobs">
   <div  [routerLink]="['/detail', j._id ]">
-<p>xxx</p>
+<p>{{j.companyname}}</p>
 </div>
 </div>
 
