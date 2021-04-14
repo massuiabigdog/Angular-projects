@@ -25,11 +25,11 @@
           </a>
 
     </div> -->
-  <div *ngFor="let project of projects" class="{{project.tech}}
+  <div *ngFor="let project of projects" class="{{project.hometech}}
     col-md-4 col-lg-3 col-xs-12">
         <a [routerLink]="['/project', project._id ]" class="tile  {{ project.tilecolor }}">
           <div class="tile-bg">
-            <img src="">
+            <img src="{{project.clientlogo}}">
             <h3 class="tile-title">{{ project.title }}</h3>
           </div>
 

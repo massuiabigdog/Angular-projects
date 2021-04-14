@@ -5,7 +5,7 @@
 
 export const environment = {
   production: false,
-   endpoint: "http://api.tmassuia.com/" 
+   endpoint: "http://api.tmassuia.live/" 
  //   endpoint: "http://localhost:3000/" 
 
 };

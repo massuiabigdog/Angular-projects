@@ -15,7 +15,7 @@
       I try to create efficient and innovative experiences that balance user needs and business goals.
   </p>
   <a class="ghost btn-main mb-10" [routerLink]="['../home']">Projects</a>
-  <a class="ghost btn-secondary mb-10" href="http://tmassuia.com" target="_blank">tmassuia.com</a>
+  <a class="ghost btn-secondary mb-10" href="http://www.tmassuia.live" target="_blank">tmassuia.live</a>
 
 </div>
 
@@ -28,15 +28,15 @@
 
     
 
-  <div class="row">
+  <div class="row"> 
       <div *ngFor="let job of jobs" class="col-md-4 col-xs-12">
             
           <div class="experience-box text-center ">
               <div class="">
                 <img class="company-logo" src="{{ job.companylogo }}">
-                <h1> {{ post.acf.companyname }} </h1>
+                <h1> {{ job.companyname }} </h1>
                 <a class="subtitle" href="http://{{ job.companywebsite }}" target="_blank">{{job.companywebsite}}</a>
-                <h3>{{job.work}}                <span>{{post.acf.period}}</span></h3>
+                <h3>{{job.work}}                <span>{{job.period}}</span></h3>
         <div *ngIf="job.responsabilities">
               <hr>
           <h6 class="text-center responsabilities">Major Responsabilities</h6>
